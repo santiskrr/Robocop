@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { FaBook } from 'react-icons/fa';
-import './Historia.css';
+import './historia.css';
 import Checkbox from '../components/Checkbox';
 function Historia() {
   return (

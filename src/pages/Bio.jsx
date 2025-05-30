@@ -1,4 +1,4 @@
-import './Bio.css';
+import './bio.css';
 import Navbar from '../components/Navbar';
 import { FaUser } from 'react-icons/fa';
 import React from "react";
