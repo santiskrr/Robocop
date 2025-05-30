@@ -1,0 +1,36 @@
+.robocop-image-bio {
+  background-image: url('https://assets.mycast.io/posters/robocop-1986-re-casting-call-fan-casting-poster-202200-medium.jpg?1654322105');
+  background-size: cover; 
+  background-position:center 15%;
+  animation: pulse-border-cyan 4s infinite ease-in-out;
+  box-shadow: 0 0 25px #00f7ff;
+}
+
+@keyframes pulse-border-cyan {
+  0%, 100% {
+    border-color: #00f7ff;
+    box-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff inset;
+  }
+  50% {
+    border-color: #00d2ff;
+    box-shadow: 0 0 25px #00d2ff, 0 0 40px #00d2ff inset;
+  }
+}
+
+.text-shadow {
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+}
+
+.neon-icon {
+  filter: drop-shadow(0 0 5px #00f7ff);
+}
+
+.neon-border-cyan {
+  border-color: #00f7ff;
+  box-shadow: 0 0 15px #00f7ff, 0 0 20px #00f7ff;
+}
+
+
+
+
+

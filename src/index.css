@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+background-color:black
+}
+
+
+a {
+  color: white;
+}
+a:hover {
+  color: #ff0000;
+}
+

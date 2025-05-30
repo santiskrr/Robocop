@@ -1,0 +1,60 @@
+.robocop-bg {
+  background-image: url('https://www.well-played.com.au/wp-content/uploads/2023/08/robocop-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: pulse-border 4s infinite ease-in-out;
+  box-shadow: 0 0 25px #ff073a;
+}
+
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: #ff073a;
+    box-shadow: 0 0 15px #ff073a, 0 0 30px #ff073a inset;
+  }
+  50% {
+    border-color: #ff0040;
+    box-shadow: 0 0 25px #ff0040, 0 0 40px #ff0040 inset;
+  }
+}
+
+
+
+.text-shadow {
+  text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
+}
+
+.neon-icon {
+  filter: drop-shadow(0 0 5px #ff0033);
+}
+
+.neon-border {
+  border-color: #ff073a;
+  box-shadow: 0 0 15px #ff073a, 0 0 20px #ff073a;
+}
+
+
+
+
+.glitch {
+  position: relative;
+  animation: glitch-text 2s infinite;
+}
+
+@keyframes glitch-text {
+  0% {
+    transform: translate(0);
+    text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
+  }
+  2% {
+    transform: translate(-2px, 2px);
+    text-shadow: 2px 0 5px #ff073a, -2px 0 5px #00f;
+  }
+  4% {
+    transform: translate(2px, -2px);
+    text-shadow: -2px 0 5px #ff073a, 2px 0 5px #00f;
+  }
+  6%, 100% {
+    transform: translate(0);
+    text-shadow: 0 0 5px rgba(255, 0, 60, 0.5);
+  }
+}
