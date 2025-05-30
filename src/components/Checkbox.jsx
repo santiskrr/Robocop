@@ -791,7 +791,7 @@ const StyledWrapper = styled.div`
   .data-chip {
     position: absolute;
     padding: 5px 8px;
-    background-color: rgba(0, 24, 55, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(0, 162, 255, 0.5);
     border-radius: 4px;
     font-size: 10px;
@@ -802,13 +802,13 @@ const StyledWrapper = styled.div`
 
   .holo-checkbox-input:checked ~ .data-chips .data-chip {
     opacity: 1; /* Cuando el checkbox está activado, se vuelve visible */
-    border-color: rgba(0, 255, 136, 0.06);
+    border-color: rgba(0, 0, 0, 0.06);
     animation: erratic-pulse 0.2s infinite alternate; /* Animación errática */
   }
 
   @keyframes erratic-pulse {
     0% {
-      filter: brightness(1);
+      filter: brightness(10);
       opacity: calc(1 - var(--pulse-intensity));
     }
     50% {
